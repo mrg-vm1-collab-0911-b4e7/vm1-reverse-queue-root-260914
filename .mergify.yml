@@ -1,7 +1,6 @@
 queue_rules:
   - name: vm1-reverse-queue
     batch_size: 1
-    max_parallel_checks: 1
     update_method: merge
     merge_method: merge
     queue_conditions: []
